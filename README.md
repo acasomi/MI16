@@ -1,103 +1,123 @@
-# MI16 - Instagram Bruteforce & Username Collector Tool
 
-🔥 Tool IG brutal buat dump followers massal + brute force password otomatis/manual!
+# MI16 - Instagram Bruteforce & Username Collector Tool 🇮🇩
+
+🔥 Tool IG brutal untuk:
+- Dump followers massal
+- Bruteforce password otomatis/manual
+- Auto login via cookies
+- Multi-threading super cepat
 
 ---
 
 ## 🛠️ INSTALL DI TERMUX / ANDROID / LINUX
-Warning SC ini masih dalam pengembangan mohon bantuannya jika ada error atau kurang rapih hubungi author untuk perbaikan
 
-wa :wa.me/+6383155363731
+⚠️ **PERINGATAN:**
+Script ini masih dalam tahap pengembangan.  
+Jika ada bug/error, hubungi author untuk perbaikan.
+
+📲 Kontak WA: [wa.me/+6383155363731](https://wa.me/+6383155363731)
+
+---
+
+### 📦 Perintah Instalasi
+
+Buka **Termux**, ketik perintah satu per satu:
 
 ```bash
-$ pkg update && pkg upgrade
-$ pkg install python
-$ pkg install git
-$ pip install requests
-$ pip install bs4
-$ pip install rich
-$ git clone https://github.com/acasomi/MI16.git
-$ cd MI16
-$ python ig.py
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+pip install requests
+git clone https://github.com/acasomi/MI16.git
+cd MI16
+python ig.py
 
 
 ---
 
-⚙️ FITUR
+⚙️ FITUR UTAMA
 
 ✅ Login via cookies Instagram (real login)
-
-🔍 Dump followers dari banyak akun
-
-📝 Simpan ke username.txt
-
-🔐 Brute force otomatis (buat password dari nama)
-
-🔑 Mode manual (1 password untuk semua)
-
-🛡️ Otomatis pakai proxy (proxyscan + cadangan)
-
-🌐 Deteksi koneksi sebelum mulai
-
-🎨 Tampilan warna-warni (ANSI styled)
-
-🔥 Bisa jalan di Termux, Android, Linux
-
+✅ Jika cookies kosong, otomatis login manual
+✅ Deteksi koneksi sebelum mulai
+✅ Dump followers dari banyak akun sekaligus
+✅ Simpan username hasil dump ke username.txt
+✅ Brute force otomatis (generate password dari nama)
+✅ Mode manual (satu password untuk semua target)
+✅ Auto proxy (proxyscan + cadangan)
+✅ Multi-threading (mode super/cepat/lambat)
+✅ Tampilan warna-warni ANSI
+✅ Progress real-time + log percobaan
+✅ Mode target 1 akun (one mode)
 
 
 ---
 
 🧠 CARA PAKAI
 
-1. Jalankan python ig.py
+1️⃣ Jalankan script:
+
+python ig.py
+
+2️⃣ Jika cookies belum ada:
+
+Masukkan username dan password IG kamu
+
+Login berhasil ➜ cookies tersimpan otomatis
 
 
-2. Masukkan cookies IG saat diminta
+3️⃣ Pilih menu utama:
+
+[01] Crack masal (dump followers banyak akun)
+[02] Crack target (1 akun saja)
+[03] Laporan
+[04] Hapus cookies (logout)
+[05] Lapor bug
+[06] Exit
+
+4️⃣ Masukkan target:
+
+username1,username2 ➜ List manual
+
+file:daftar.txt ➜ Ambil dari file
+
+me ➜ Akun sendiri
 
 
-3. Pilih menu utama:
+5️⃣ Pilih metode password:
 
-[01] Ambil username massal
-[02] Bruteforce via bot telegram
-[03] Lihat hasil cracking
-[04] Logout [hapus cookies]
-[05] EXIT
+[1] Manual ➜ Ketik 1 password yang sama untuk semua
+
+[2] Otomatis ➜ Script membuat kombinasi password
 
 
-4. Masukkan target:
+6️⃣ Pilih mode cracking:
 
-username1,username2
+Super ➜ Paling cepat (lebih agresif)
 
-file → ambil dari file .txt
+Cepat ➜ Normal
 
-me → akun sendiri
-
-
-
-5. Pilih metode password:
-
-[1] Manual → isi 1 password
-
-[2] Otomatis → password dibuat dari nama user
+Lambat ➜ Aman & stabil
 
 
+7️⃣ Tunggu hasil muncul:
 
-6. Tunggu hasilnya muncul otomatis
-
+Status sukses, checkpoint, atau gagal
 
 
 
 ---
 
-📁 HASIL OUTPUT
+📂 OUTPUT FILES
 
-File	Keterangan
+File	Deskripsi
 
-username.txt	Target followers hasil dump
-sukses.txt	Login berhasil
+username.txt	Daftar target followers hasil dump
+sukses.txt	Akun login berhasil
 cekpoin.txt	Akun checkpoint
 gagal.txt	Akun gagal login
-cookies.txt	Penyimpanan cookies kamu
+cookies.txt	Cookies tersimpan
+progres.txt	Log setiap percobaan password
 
 
 
@@ -105,20 +125,17 @@ cookies.txt	Penyimpanan cookies kamu
 
 ⚠️ DISCLAIMER
 
-> ❗ Tool ini hanya untuk EDUKASI & PENTESTING
+❗ Tool hanya untuk edukasi & pentesting
 ❗ Segala bentuk penyalahgunaan bukan tanggung jawab author
 ❗ Jangan gunakan untuk tindakan ilegal
-
-
 
 
 ---
 
 👑 AUTHOR
 
-GitHub  : github.com/acasomi
+GitHub: github.com/acasomi
+Project: MI16
+WA: wa.me/+6383155363731
 
-Project : MI16
 
-
---
